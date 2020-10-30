@@ -23,10 +23,10 @@ document.querySelectorAll('input[name], #formula, #condition').forEach(function 
 		var conditionResult = demo(Number(a1.value), Number(b1.value), Number(a2.value), Number(b2.value));
 
 
-		if (conditionResult ) {
-			result.style.background = "green";
+		if (conditionResult) {
+			result.style.background = "#B6D7A8";
 		} else {
-			result.style.background = "transparent";
+			result.style.background = "#FFFFFF";
 		}
 
 	 });
